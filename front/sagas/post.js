@@ -39,7 +39,7 @@ function* addPost(action) {
 }
 
 function addCommentAPI(data) {
-    return axios.post('/api/post/${data.postId}/comment', data);
+    return axios.post(`/api/post/${data.postId}/comment`, data);
 }
 
 function* addComment(action) {
@@ -60,7 +60,7 @@ function* addComment(action) {
 }
 
 function deletePostAPI(data) {
-    return axios.post('/api/post/${data.postId}/comment', data);
+    return axios.post(`/api/post/${data.postId}/comment`, data);
 }
 
 function* deletePost(action){
@@ -84,7 +84,7 @@ function* deletePost(action){
 }
 
 function changePostAPI(data) {
-    return axios.post('/api/post/${data.postId}/comment', data);
+    return axios.post(`/api/post/${data.postId}/comment`, data);
 }
 
 function* changePost(action){
@@ -116,7 +116,7 @@ function* loadPost(action){
     } catch (error) {
         yield put({
             type: LOAD_POSTS_FAILURE,
-            data: err.response.data
+            data: error.response.data
         });
     }
 }

@@ -26,7 +26,7 @@ const FollowButton = ({post}) => {
     );
 };
 
-FollowButton.PropTypes = {
+FollowButton.propTypes = {
     post : PropTypes.object.isRequired,
 }
 export default FollowButton;

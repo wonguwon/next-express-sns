@@ -74,7 +74,7 @@ const signup = () => {
                     <Input 
                         name = "user-password-check"
                         type = "password"
-                        vlue = {passwordCheck}
+                        value = {passwordCheck}
                         required
                         onChange = {onChangePasswordCheck}
                     />
