@@ -1,4 +1,4 @@
-# node-sns
+# next-express-sns
 
 Next.js와 Express 기반의 풀스택 SNS 웹 애플리케이션입니다.
 
@@ -19,7 +19,7 @@ Next.js와 Express 기반의 풀스택 SNS 웹 애플리케이션입니다.
 ## 프로젝트 구조
 
 ```
-NodeBird-sns/
+next-express-sns/
 ├── front/                  # Next.js 프론트엔드
 │   ├── components/         # 재사용 컴포넌트
 │   ├── pages/              # 페이지 라우트
